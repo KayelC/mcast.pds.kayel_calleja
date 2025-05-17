@@ -1,0 +1,18 @@
+cd c:\Users\kayel\Documents\GitHub\mcast.pds.kayel_calleja\
+git init
+git add .
+git commit -m "README.md commit"
+git remote add origin https://github.com/KayelC/mcast.pds.kayel_calleja.git
+git push -u origin main
+git branch test
+git checkout test
+mkdir 1.1\ -\ GIT
+cd 1.1\ -\ GIT
+git add .
+git commit -m "Added Exercise 1"
+git push -u origin test
+git checkout main
+git merge test
+git add .
+git commit -m "Finished Exercise 1"
+git push
